@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column align-items-center">
-    <div class="col-md-2 col-6 my-md-0 my-3 d-flex">
+    <div class="col-12 d-flex justify-content-center my-md-0 my-3">
       <button
         v-for="text in this.class"
         :key="text"
@@ -39,18 +39,15 @@
 .btn:focus {
   box-shadow: none;
 }
-
 .btn-custom-blue {
   color: #00c9ff;
   border-bottom: 3px solid #00c9ff !important;
 }
-
 .btn-custom-white {
   color: white;
   border-bottom: 3px solid #ffffff !important;
   transition: all 0.4s linear;
 }
-
 .btn-custom-white:hover {
   color: #00c9ff;
   border-bottom: 3px solid #00c9ff !important;
@@ -60,7 +57,6 @@
 <script>
 import Portfolio from '../components/SinglePortfolio.vue';
 // import Modal from '../components/PortfolioModel.vue';
-
 export default {
   components: {
     Portfolio

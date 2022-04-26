@@ -10,7 +10,7 @@
 .badge {
   transition: all 0.4s ease;
   cursor: pointer;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
 }
 
 .badge:hover {
@@ -27,7 +27,7 @@ export default {
     },
     mx: {
       type: String,
-      default: 'mx-1'
+      default: '1'
     },
     link: {
       type: String,

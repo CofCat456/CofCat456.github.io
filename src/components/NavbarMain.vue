@@ -15,13 +15,15 @@
       <div class="mb-3 text-md-start">
         <router-link to="/" class="fs-4 text-white">{{ name }}</router-link>
       </div>
-      <div class="w-100 d-flex justify-content-md-start justify-content-around">
+      <div
+        class="w-100 d-flex justify-content-md-start justify-content-evenly px-md-0 ps-2"
+      >
         <button
           v-for="item in Options"
           :key="item"
           type="button"
           :class="[
-            ['btn me-md-4 me-0 px-md-5 px-4'],
+            ['btn me-md-4 me-0 px-sm-5 px-4'],
             state === item.path ? 'btn-light' : 'btn-outline-light'
           ]"
           @click="router(item.path)"

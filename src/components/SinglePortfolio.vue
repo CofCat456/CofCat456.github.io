@@ -4,7 +4,7 @@
       <a :href="link" target="_blank"
         ><img :src="src" :alt="name + '的照片'" class="img-fluid"
       /></a>
-      <div class="d-flex justify-content-center my-2 mx-2">
+      <div class="d-flex flex-wrap justify-content-center my-2 mx-2">
         <SmallTag
           v-for="text in skill"
           :key="text"

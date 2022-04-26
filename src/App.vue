@@ -67,6 +67,7 @@ body::before {
   background-image: url('./assets/bg/wallpaper.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   z-index: -1000000;
 }
 

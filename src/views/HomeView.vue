@@ -1,6 +1,6 @@
 <template>
   <div
-    class="d-flex flex-column align-items-center justify-content-center animate__animated animate__fadeInUp"
+    class="my-5 d-flex flex-column align-items-center justify-content-center animate__animated animate__fadeInUp"
   >
     <div class="col-12 my-3 text-center">
       <div v-for="item in experience" :key="item.title" class="my-4">
@@ -8,7 +8,7 @@
         <p class="text-white">{{ item.text }}</p>
       </div>
     </div>
-    <div class="col-md-6 col-8 d-flex flex-wrap justify-content-center mx-2">
+    <div class="col-12 d-flex flex-wrap justify-content-center mx-2">
       <SmallTag
         v-for="item in info"
         :key="item.title"
@@ -36,12 +36,12 @@ export default {
           text: '致理科技大學 | 資訊管理系'
         },
         {
-          title: '2020 - 2021',
-          text: '學生會 | 會長'
+          title: '2020 社團經驗',
+          text: '致理科技大學 | 學生會會長'
         },
         {
-          title: '2019 - 2021',
-          text: '12個校級委員會 | 學生代表'
+          title: '前端新手',
+          text: '自學半年 ｜ 找實習中...'
         }
       ],
       info: [
@@ -60,6 +60,10 @@ export default {
         {
           title: 'Medium',
           link: 'https://medium.com/@a25690756'
+        },
+        {
+          title: 'Resume',
+          link: 'https://www.cakeresume.com/a25690756'
         }
       ]
     };

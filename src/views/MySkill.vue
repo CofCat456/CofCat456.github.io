@@ -41,7 +41,7 @@ export default {
         },
         {
           title: 'JavaScript',
-          stitle: ['jQuery', 'React', 'Vue 2']
+          stitle: ['jQuery', 'React', 'Vue 2', 'Vue CLI 3']
         }
       ]
     };
